@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'gamefymedb',
         'USER': 'postgres',
-        'PASSWORD': '',
+        'PASSWORD': 'ifpr2025',
         'HOST': 'gamefymedb.c1g806ikoooe.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
