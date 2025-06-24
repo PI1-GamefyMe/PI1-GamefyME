@@ -2,6 +2,10 @@ function showLoading() {
     document.getElementById("loading-overlay").style.display = "flex";
   }
 
+function fecharMsg(element) {
+    element.parentElement.style.display = 'none';
+  }
+
 document.addEventListener("DOMContentLoaded", function () {
     const loginForm = document.querySelector("form[action*='login']");
     const btnLogin = document.getElementById("btnLogin");
