@@ -1,29 +1,49 @@
-# Projeto de Plataforma de Controle de Hábitos com Gamificação
+# GamefyME: um sistema web de tarefas gamificado focado em produtividade
 
-## Escopo Macro
 
-Atualmente, a sociedade enfrenta desafios relacionados à atenção e motivação, afetando especialmente pessoas com déficit ou transtornos como TDAH e autismo. Métodos como a gamificação e a neuroeducação têm se mostrado estratégias eficazes para manter um ritmo elevado de produção.
+## Resumo
 
-Além disso, o **Método Pomodoro** é amplamente utilizado para melhorar a produtividade. Essa técnica de gestão de tempo divide o trabalho em intervalos de 25 minutos, denominados *pomodoros*, com intervalos de 5 minutos entre eles e uma pausa mais longa após uma hora de atividade.
-
-Nesta plataforma, a gamificação é o principal mecanismo de feedback, enquanto o método Pomodoro serve como suporte para a organização do tempo. O usuário se cadastra na aplicação, registra suas atividades e define prioridades (com pesos pré-determinados ou configuráveis pela equipe). Ao concluir as atividades dentro do tempo estipulado, o usuário recebe recompensas que podem incluir conquistas, prêmios virtuais e pontos de experiência, incentivando a manutenção de um bom ritmo e consistência.
+Diante dos crescentes desafios de concentração e motivação na sociedade atual,
+especialmente para indivíduos com TDAH (Transtorno de Déficit de Atenção com
+Hiperatividade) que compõe 5% e 8% da população mundial e pessoas com o TEA
+(Transtorno do Espectro Autista), que estimam em até 6,9 milhões de brasileiros,
+reforçam a urgência da criação instrumentos que auxiliem rotina, foco e
+desenvolvimento de hábitos. A busca por ferramentas ou métodos que auxiliem na
+produtividade tornou-se mais frequente, diante desta problemática, surgiu a
+idealização de uma plataforma voltada para essa problemática. Este projeto teve
+como objetivo desenvolver o GamefyME, uma plataforma web que possibilita uma
+melhoria na produtividade pessoal e a constância na realização de tarefas de uma
+maneira mais agradável e envolvente. Para isso, a metodologia empregada foi a
+integração da técnica Pomodoro com elementos de gamificação, como sistemas de
+experiência, desafios, conquistas e streaks (dias consecutivos de produtividade). O
+sistema foi desenvolvido utilizando o framework Django com banco de dados
+PostgreSQL e tecnologias front-end como HTML, CSS e JavaScript puros, com o
+objetivo de ser leve e de fácil manutenção. Como resultado, foi entregue uma
+plataforma funcional e acessível, que possibilita o cadastro e o gerenciamento de
+tarefas, e permite enriquecer a experiência do usuário com a gamificação.
+Conclui-se que o projeto atingiu seus objetivos, demonstrando ser uma solução
+promissora para engajar usuários na gestão de suas atividades, com planos de
+expansão para uma aplicação mobile mais robusta e completa.
 
 ## Links
 
 - [Drive com todos os arquivos](https://drive.google.com/drive/folders/1j5t3ILdWwQTxNi6v-8JLlZ_zP_FIB7Er?usp=sharing)
-- [Figma com a prototipação das telas](https://www.figma.com/design/T8K0xYQI6NYA3LjxnH7Qw7/GamefyMe?node-id=0-1&p=f&t=Kb9aqRTR62jHjPXJ-0)
+- [Documentação final do projeto](https://drive.google.com/file/d/1hWPsHn2SZuk9ctLpdBpNLhflKHGN3H2u/view?usp=sharing)
 
 ## Tecnologias Utilizadas
 
 - **Front-end**
-  - HTML e CSS
-  - Django Template
+  - HTML5 e CSS3
+  - Javascript Vanilla
+  - Django Templates
 
 - **Back-end**
-  - Python e Django
+  - Python 3.12
+  - Django 5.2
 
 - **Banco de dados**
-  - PostgreSQL
+  - PostgreSQL 15
+  - Psycopg2 2.9.10
 
 ## Colaboradores
 
